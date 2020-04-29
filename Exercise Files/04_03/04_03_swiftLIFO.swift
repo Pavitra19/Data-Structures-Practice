@@ -24,16 +24,19 @@ class Stack {
     }
 }
 
+
 var deck:Stack = Stack()
 
 deck.push(item: "Heart : Queen")
 deck.push(item: "Spade : Jack")
-deck.push(item: "Heart : 9")
+deck.push(item: "Heart: 9")
 deck.push(item: "Diamond : 4")
+
+// ! unwraps an optional value
 print(deck.peek()!)
 print(deck.peek()!)
 
 var firstItemPopped = deck.pop()
 var secondItemPopped = deck.pop()
-print(firstItemPopped!)
-print(secondItemPopped!)
+print("first item popped ", firstItemPopped!)
+print("Second item popped ", secondItemPopped!)

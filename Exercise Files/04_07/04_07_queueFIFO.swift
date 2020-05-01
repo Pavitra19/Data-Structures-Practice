@@ -25,6 +25,7 @@ class Queue {
 }
 
 var myQueue = Queue()
+// add to queue
 myQueue.enqueue(item: "Peggy")
 myQueue.enqueue(item: "Larry")
 myQueue.enqueue(item: "Serena")

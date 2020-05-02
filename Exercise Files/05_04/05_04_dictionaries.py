@@ -1,6 +1,7 @@
 # Key: State
 # Value: Capital
 
+# initialize dictionary
 statesToCapitals = {}
 
 statesToCapitals["Texas"] = "Austin"

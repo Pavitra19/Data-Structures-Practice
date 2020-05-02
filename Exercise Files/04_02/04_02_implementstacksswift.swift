@@ -6,7 +6,7 @@ class Stack {
         // self means stack belongs to this class 
         // append item to the back of the array 
         // back of the array will be the top of the stack
-        self.stackArray.appen(item)
+        self.stackArray.append(item)
     }
 
     // pop
